@@ -1,0 +1,8 @@
+C:\Users\UPN\Desktop\FA_8455\FA-8455\SEMANA-1C#\bin\Debug\SEMANA-1C#.exe.config
+C:\Users\UPN\Desktop\FA_8455\FA-8455\SEMANA-1C#\bin\Debug\SEMANA-1C#.exe
+C:\Users\UPN\Desktop\FA_8455\FA-8455\SEMANA-1C#\bin\Debug\SEMANA-1C#.pdb
+C:\Users\UPN\Desktop\FA_8455\FA-8455\SEMANA-1C#\obj\Debug\SEMANA-1C#.csproj.AssemblyReference.cache
+C:\Users\UPN\Desktop\FA_8455\FA-8455\SEMANA-1C#\obj\Debug\SEMANA-1C#.csproj.CoreCompileInputs.cache
+C:\Users\UPN\Desktop\FA_8455\FA-8455\SEMANA-1C#\obj\Debug\SEMANA-1C#.exe
+C:\Users\UPN\Desktop\FA_8455\FA-8455\SEMANA-1C#\obj\Debug\SEMANA-1C#.pdb
+C:\Users\UPN\Desktop\FA_8455\FA-8455\SEMANA-1C#\obj\Debug\SEMANA-1C#.exe.config
