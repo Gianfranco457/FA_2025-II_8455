@@ -4,4 +4,9 @@ def ejer1():
 
     print(f"\n{nombre}, bienvenido al curso de FA de la carrera {carrera}")
 
-ejer1()
+def ejer2():
+    print("\"Gianfranco\"")
+
+def ejer3():
+    numero1= input("Ingrese el primer número")
+ejer2()
