@@ -31,22 +31,29 @@ namespace SEMANA_1C_
         }
         static void ejer3()
         {
-            int n1, n2, suma, resta, multiplicacion, división;
+            int n1, n2, división;
 
             Console.Write("Ingrese el primer número: ");
             n1 = int.Parse(Console.ReadLine());
             Console.Write("Ingrese el segundo número: ");
             n2 = int.Parse(Console.ReadLine());
 
-            suma = n1 + n2;
-            resta = n1 - n2;
-            multiplicacion = n1 * n2;
             división = n1 / n2;
 
-            Console.WriteLine($"\nLa suma es: {suma}");
-            Console.WriteLine($"La resta es: {resta}");
-            Console.WriteLine($"La multiplicación es: {multiplicacion}");
+            Console.WriteLine($"\nLa suma es: {n1+n2}");
+            Console.WriteLine($"La resta es: {n1-n2}");
+            Console.WriteLine($"La multiplicación es: {n1*n2}");
             Console.WriteLine($"La división es: {división}");
+        }
+        static void ejer4()
+        {
+            double n1, raiz_c;
+
+            Console.Write("Ingrese un numero decimal: ");
+            n1=double.Parse(Console.ReadLine());
+
+            raiz_c = Math.Pow(n1, 0.5);
+
         }
     }
 }
