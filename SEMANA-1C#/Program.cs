@@ -11,7 +11,7 @@ namespace SEMANA_1C_
     {
         static void Main(string[] args)
         {
-            ejer3();
+            ejer4();
             Console.ReadKey();
         }
         static void ejer1()
@@ -48,13 +48,30 @@ namespace SEMANA_1C_
         }
         static void ejer4()
         {
-            double n1, raiz_c;
+            Console.Write("Ingrese un número decimal: ");
+            double num = double.Parse(Console.ReadLine());
 
-            Console.Write("Ingrese un numero decimal: ");
-            n1=double.Parse(Console.ReadLine());
+            double raiz2 = Math.Sqrt(num);
+            int redo = (int)Math.Round(num, 0);
+            double cubo = Math.Pow(num, 3);
+            double raiz3 = Math.Pow(num, 1.0 / 3.0);
 
-            raiz_c = Math.Pow(n1, 0.5);
-
+            Console.WriteLine("\nLa raíz cuadrada es: " + raiz2);
+            Console.WriteLine("El valor redondeado sin decimales es: " + redo);
+            Console.WriteLine("Al cubo: " + cubo);
+            Console.WriteLine("Raíz 3: " + raiz3);
         }
+        static void ejer5()
+        {
+            Console.Write("Ingrese un número: ");
+            string num=Console.ReadLine();
+
+            int entero = int.Parse(num);
+            double deci = double.Parse(num);
+
+            Console.Write("Resto: "+(entero%2));
+            Console.Write("Divi 3: " + deci / 3);
+        }
+        
     }
 }

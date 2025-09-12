@@ -1,3 +1,6 @@
+from tokenize import Double
+
+
 def ejer1():
     nombre = input("Ingrese su nombre: ")
     carrera= input("Ingrese su carrera: ")
@@ -15,5 +18,15 @@ def ejer3():
     print("La resta es: ",(num1-num2))
     print("La multiplicación es: ", (num1*num2))
     print("La división es: ", (num1/num2))
+
+def ejer4():
+    num= float(input("Ingrese un número decimal: "))
+
+    raiz2=Math.Sqrt(num)
+
+    print("Raiz2: ", )
+    print("redondeado: ", )
+    print("Al cubo: ", )
+    print("Raiz: ", )
 
 ejer3()
