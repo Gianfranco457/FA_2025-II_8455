@@ -31,14 +31,15 @@ namespace SEMANA_1C_
         }
         static void ejer3()
         {
-            int n1, n2, división;
+            int n1, n2;
+            
 
             Console.Write("Ingrese el primer número: ");
             n1 = int.Parse(Console.ReadLine());
             Console.Write("Ingrese el segundo número: ");
             n2 = int.Parse(Console.ReadLine());
 
-            división = n1 / n2;
+            double división =(double) n1 / (double)n2;
 
             Console.WriteLine($"\nLa suma es: {n1+n2}");
             Console.WriteLine($"La resta es: {n1-n2}");
